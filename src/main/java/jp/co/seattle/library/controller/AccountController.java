@@ -66,10 +66,7 @@ public class AccountController {
 		}
 
 		// パラメータで受け取ったアカウント情報をDtoに格納する。
-		UserInfo userInfo = new UserInfo();
-		userInfo.setEmail(email);
-		userInfo.setPassword(password);
-		usersService.registUser(userInfo);
+		
 
 	}
 
