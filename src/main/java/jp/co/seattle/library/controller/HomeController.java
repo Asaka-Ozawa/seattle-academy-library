@@ -34,7 +34,6 @@ public class HomeController {
 		//書籍の一覧情報を取得（タスク３）
 		List<BookInfo> bList = booksService.getBookList();
 		model.addAttribute("booklist", bList);
-
 		return "home";
 	}
 
