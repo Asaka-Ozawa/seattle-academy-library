@@ -85,6 +85,7 @@ public class BooksService {
 	 * 
 	 * @param bookInfo
 	 */
+	
 	public void updateBook(BookDetailsInfo bookInfo) {
 		String sql;
 		if (bookInfo.getThumbnailUrl() == null) {
